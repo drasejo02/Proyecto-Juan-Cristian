@@ -1,3 +1,48 @@
 *{
-    background-color: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c4c4c;
+}
+.cont_central{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+.cnt_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    .card{
+        background: #FFFFFF;
+        box-shadow: 0px 40px 50px -34px rgba(114, 142, 196, 0.5);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        picture{
+            background-color: #78A5FA;
+            max-height: 335px;
+            display: flex;
+            width: 100%;
+            margin: 0 0 40px;
+            img{
+                width: 240px;
+                object-fit: contain;
+                display: block;
+                margin: 0 auto;
+                transform: translateY(30px);
+            }
+        }
+        .h_card{
+            margin: 0;
+        }
+        .txt_card{
+            margin: 10px 0 30px;
+            max-width: 300px;
+            text-align: center;
+        }
+    }
 }
