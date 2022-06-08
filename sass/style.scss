@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #4c4c4c;
 }
 .cont_central{
@@ -7,7 +7,7 @@
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
-    max-width: 1000px;
+    max-width: 1250px;
 }
 .cnt_cards{
     display: grid;
@@ -45,4 +45,82 @@
             text-align: center;
         }
     }
+}
+footer{
+    width: 100%;
+    padding: 64px 0;
+    background: #353535;
+}
+.cnt_gen_cols_footer{
+    width: 100%;
+    display: flex;
+}
+.col_footer{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 16px 32px;
+    color: #fff;
+    &:last-child{
+        padding-right: 0;
+    }
+    &:first-child{
+        padding-left: 0;
+    }
+}
+.h_footer{
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu_footer{
+    width: 100%;
+    padding:0;
+    text-decoration: none;
+    li{
+        display: block;
+        margin: 24px 0;
+        a{
+            cursor: pointer;
+            color: #fff;
+            &:hover{
+                color: #78A5FA;
+            }
+        }
+    }
+}
+.txt_suscrib{
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 0 16px;
+}
+input{
+    border-radius: 4px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    font-size: 16px;
+}
+.fomr_susc{
+    width: 100%;
+    display: flex;
+}
+.campo_susc{
+    background: transparent;
+    border: 1px solid #999;
+}
+.btn{
+    border-radius: 4px;
+    font-size: 18px;
+    background: #78A5FA;
+    border:none;
+    box-sizing: border-box;
+    padding: 8px 32px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.btn_susc{
+    height: 40px;
 }
